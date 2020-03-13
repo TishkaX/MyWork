@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Сапёр на Javascript</title>
+	<style>
+		body{
+			height: 97vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-family: sans-serif;
+		}
+		b{
+			font-size:18px;
+		}
+		#field{
+			height:400px;
+			width:400px;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.field-item{
+			height:40px;
+			width: 40px;
+			border-bottom:2px solid gray;
+			background: silver;
+			margin-right:0px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-weight: 600;
+			color:red;
+			font-size:18px;
+		}
+		.open{
+			background: none;
+		}
+		img{
+			height:20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="field"></div>
+	<script src="sapper.js"></script>
+</body>
+</html>
